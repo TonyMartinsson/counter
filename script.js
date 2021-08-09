@@ -11,8 +11,9 @@ window.onload = function() {
         counter.innerHTML = count;
     });
     decrement.addEventListener("click", () => {
-        count--;
+        count = count>0 ? --count : 0;
         counter.innerHTML = count;
+        
     });
 }
 
