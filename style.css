@@ -17,9 +17,9 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 15px;
+    width: 9.4rem;
+    height: 9.4rem;
+    border-radius: 1rem;
     color: white;
     background: #185AD8;
 }
@@ -36,6 +36,7 @@ button{
     font-size: 1.2rem;
     border-radius: 3.1rem;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .decrement{
     bottom: -15%;
@@ -44,4 +45,10 @@ button{
 .increment{
     bottom: 10%;
     right: -15%;
+}
+.decrement:active {
+    background: #185AD8;
+}
+.increment:active {
+    background: #185AD8;
 }
